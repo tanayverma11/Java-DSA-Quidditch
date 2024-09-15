@@ -1,7 +1,5 @@
-package PW.recursion;
-
+package Recursion;
 import java.util.Scanner;
-
 public class SumTriangle {
     public static void generateSumTriangle(int []arr){
 
@@ -21,7 +19,5 @@ public class SumTriangle {
             arr[i]=sc.nextInt();
         }
         generateSumTriangle(arr);
-
-
     }
 }
