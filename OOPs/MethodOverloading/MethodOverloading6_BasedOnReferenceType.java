@@ -1,4 +1,4 @@
-package PW.OOPs.MethodOverloading;
+package OOPs.MethodOverloading;
 //Case5: In case of method overloading, compiler will bind the method call based on the
 //reference type but not on the runtime object
 

@@ -1,4 +1,4 @@
-package PW.OOPs.MethodOverloading;
+package OOPs.MethodOverloading;
 // Case 3: Mismatch in Object Hierarchy
 
 class Sample

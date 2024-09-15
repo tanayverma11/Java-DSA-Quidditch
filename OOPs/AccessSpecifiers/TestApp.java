@@ -1,3 +1,5 @@
+package OOPs.AccessSpecifiers;
+
 class Account {
     //Data Security
     private double balance;
@@ -44,12 +46,12 @@ class Account {
         return userName.equalsIgnoreCase("sachin") && password.equals("sachin123");
     }
 }
-public class TestApp{
-    public static void main(String[] args) {
-        Account acc = new Account();
-        acc.setBalance(1000.0);
+    public class TestApp{
+        public static void main(String[] args) {
+            Account acc = new Account();
+            acc.setBalance(1000.0);
 
-        double balance = acc.getBalance(500.0);
-        System.out.println("Withdrawing :: "+balance + " Amount");
+            double balance = acc.getBalance(500.0);
+            System.out.println("Withdrawing :: "+balance + " Amount");
     }
 }

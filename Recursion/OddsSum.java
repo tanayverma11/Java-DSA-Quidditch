@@ -1,4 +1,4 @@
-package PW.recursion;
+package Recursion;
 import java.util.Scanner;
 public class OddsSum {
     public static int oddSum(int a, int b){

@@ -1,4 +1,4 @@
-package PW.Stacks;
+package Stacks;
 import java.util.Stack;
 public class PushAtAnyIndex {  // T.C. = O(n) , S.C. = O(n)
     public static void main(String[] args) {

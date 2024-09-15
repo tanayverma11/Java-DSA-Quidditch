@@ -1,4 +1,4 @@
-package PW.recursion;
+package Recursion;
 import java.util.Scanner;
 public class Sum1ToN {
     public static int sum(int n){

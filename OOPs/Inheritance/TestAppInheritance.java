@@ -1,4 +1,4 @@
-package PW.OOPs.Inheritance;
+package OOPs.Inheritance;
 
 class Person{
     // instance variables

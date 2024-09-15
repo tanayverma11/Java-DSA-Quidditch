@@ -1,4 +1,4 @@
-package PW.recursion;
+package Recursion;
 import java.util.ArrayList;
 public class StringSubsets {
     static ArrayList <String> arr= new ArrayList<>();

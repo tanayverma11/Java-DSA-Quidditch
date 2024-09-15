@@ -1,4 +1,4 @@
-package PW.Stacks;
+package Stacks;
 public class LinkedListImplementationOfStack {
     public static class Node {
         private int val;

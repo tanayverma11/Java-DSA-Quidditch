@@ -1,4 +1,4 @@
-package PW.recursion;
+package Recursion;
 import java.util.Scanner;
 public class GCD {
     public static int hcf(int a, int b){    //iterative method

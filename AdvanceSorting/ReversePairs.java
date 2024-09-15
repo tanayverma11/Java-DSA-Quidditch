@@ -1,4 +1,4 @@
-package PW.AdvanceSorting;
+package AdvanceSorting;
 public class ReversePairs {
         static int count = 0;
         public static void inversion(int[] a, int[] b){

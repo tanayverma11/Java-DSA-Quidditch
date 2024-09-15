@@ -1,4 +1,4 @@
-package PW.recursion;
+package Recursion;
 import java.util.Scanner;
 public class BinaryStringNoConsecutive1s {
     public static void printStrings(String ans, int n){

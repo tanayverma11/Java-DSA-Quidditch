@@ -1,4 +1,4 @@
-package PW.Stacks;
+package Stacks;
 import java.util.Stack;
 // T.C: O(n) , S.C.: O(n)
 public class PreviousGreaterElement {

@@ -1,4 +1,4 @@
-package PW.OOPs.MethodOverloading;
+package OOPs.MethodOverloading;
 // Case 2: Ambiguous method call
 
 class Calculator4 {

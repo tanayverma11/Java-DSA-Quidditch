@@ -1,4 +1,4 @@
-package PW.BinarySearch;
+package BinarySearch;
 import java.util.Scanner;
 public class ShipPackagesWithin_D_Days {
     public static int shipWithinDays(int arr[], int d){

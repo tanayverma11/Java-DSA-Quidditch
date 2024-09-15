@@ -1,4 +1,4 @@
-package PW.recursion;
+package Recursion;
 import java.util.Scanner;
 public class Print_1toN_AfterCall {
     public static void printIncreasing(int n){

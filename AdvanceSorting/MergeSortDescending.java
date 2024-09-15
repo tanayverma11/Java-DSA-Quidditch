@@ -1,5 +1,5 @@
-package PW.AdvanceSorting;
-import static PW.AdvanceSorting.MergeTwoSortedArrays.print;
+package AdvanceSorting;
+import static AdvanceSorting.MergeTwoSortedArrays.print;
 public class MergeSortDescending
 {
     static void mergeArrayDescending(int[] nums1, int[] nums2, int[] merged) {

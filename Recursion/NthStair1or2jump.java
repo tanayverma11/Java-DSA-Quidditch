@@ -1,4 +1,4 @@
-package PW.recursion;
+package Recursion;
 import java.util.Scanner;
 public class NthStair1or2jump {
     public static int stair(int n){

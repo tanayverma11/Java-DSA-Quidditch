@@ -1,4 +1,4 @@
-package PW.recursion;
+package Recursion;
 public class SkipCharacter {
     public static void skip(int i, String s, String ans){  //T.C. = O(n)
         if(i==s.length()) {

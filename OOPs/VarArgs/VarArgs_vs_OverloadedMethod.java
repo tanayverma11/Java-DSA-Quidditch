@@ -1,5 +1,5 @@
 // compiler gives preference to (exact-match) overloaded method 
-package PW.OOPs.VarArgs;
+package OOPs.VarArgs;
 
 class Demo
 {

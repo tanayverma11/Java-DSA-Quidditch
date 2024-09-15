@@ -1,4 +1,4 @@
-package PW.LinkedList;
+package LinkedList;
 class DoublyLinkedList{ //User defined data structure
     private Node head;
     private Node tail;

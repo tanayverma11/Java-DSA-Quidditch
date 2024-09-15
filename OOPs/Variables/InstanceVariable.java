@@ -1,4 +1,4 @@
-package PW.OOPs.Variables;
+package OOPs.Variables;
 
 class Worker{
     // instance variables

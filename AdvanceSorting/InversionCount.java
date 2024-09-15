@@ -1,6 +1,6 @@
-package PW.AdvanceSorting;
-import static PW.AdvanceSorting.MergeTwoSortedArrays.mergeArray;
-import static PW.AdvanceSorting.MergeTwoSortedArrays.print;
+package AdvanceSorting;
+import static AdvanceSorting.MergeTwoSortedArrays.mergeArray;
+import static AdvanceSorting.MergeTwoSortedArrays.print;
 public class InversionCount {
     static int count = 0;
     public static void inversion(int[] a, int[] b){

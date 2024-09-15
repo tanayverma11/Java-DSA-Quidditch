@@ -1,4 +1,4 @@
-package PW.Stacks;
+package Stacks;
 import java.util.Stack;
 //circular array concept
 //T.C.: O(4n)=>O(n)

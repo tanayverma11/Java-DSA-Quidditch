@@ -1,4 +1,4 @@
-package PW.AdvanceSorting;
+package AdvanceSorting;
 public class MergeTwoSortedArrays {
     static void mergeArray(int[] nums1, int[] nums2, int[] merged) {
         int i = 0, j = 0, k = 0, m = nums1.length, n = nums2.length;

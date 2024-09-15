@@ -1,4 +1,4 @@
-package PW.OOPs.MethodOverloading;
+package OOPs.MethodOverloading;
 // Case 4: Ambiguous reference call
 
 class Sample2

@@ -1,4 +1,4 @@
-package PW.OOPs.Overriding;
+package OOPs.Overriding;
 class Plane
 {
     public void takeOff(){

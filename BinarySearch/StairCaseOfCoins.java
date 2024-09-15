@@ -1,4 +1,4 @@
-package PW.BinarySearch;
+package BinarySearch;
 import java.util.Scanner;
 public class StairCaseOfCoins {
     public static void main(String[] args) {

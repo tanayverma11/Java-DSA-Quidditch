@@ -1,4 +1,4 @@
-package PW.conditionals;
+package Conditionals;
 import java.util.Scanner;
 public class MaxOf3 {
     public static void main(String[] args) {

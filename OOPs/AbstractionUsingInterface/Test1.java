@@ -1,4 +1,4 @@
-package AbstractionUsingInterface;
+package OOPs.AbstractionUsingInterface;
 // eg#1
 interface ICalculator
 {

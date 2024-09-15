@@ -1,5 +1,5 @@
-package PW.AdvanceSorting;
-import static PW.AdvanceSorting.MergeTwoSortedArrays.print;
+package AdvanceSorting;
+import static AdvanceSorting.MergeTwoSortedArrays.print;
 public class AlmostSortedArray {
     public static void main(String[] args) {
         int[] arr={3, 8, 6, 7, 5, 9, 10};

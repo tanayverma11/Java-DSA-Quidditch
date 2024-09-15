@@ -1,4 +1,4 @@
-package PW.BinarySearch;
+package BinarySearch;
 
 public class BinarySearchDescending {
     public static void main(String[] args) {

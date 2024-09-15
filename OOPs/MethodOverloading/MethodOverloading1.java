@@ -1,4 +1,4 @@
-package PW.OOPs.MethodOverloading;
+package OOPs.MethodOverloading;
 
 class Calculator1{
     public void add(int a, int b){

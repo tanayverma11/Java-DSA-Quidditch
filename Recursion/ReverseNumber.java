@@ -1,6 +1,6 @@
-package PW.recursion;
+package Recursion;
 import java.util.Scanner;
-import static PW.recursion.pow.powLogarithmic;
+import static Recursion.Power.powLogarithmic;
 public class ReverseNumber {
     public static int revNum(int n, int l){
         if(l==1) return n;

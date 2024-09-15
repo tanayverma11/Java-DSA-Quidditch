@@ -1,5 +1,5 @@
-package PW.AdvanceSorting;
-import static PW.AdvanceSorting.MergeTwoSortedArrays.print;
+package AdvanceSorting;
+import static AdvanceSorting.MergeTwoSortedArrays.print;
 public class QuickSortAlgo {
     public static void swap(int[] arr, int i, int j){
         int temp =  arr[i];

@@ -1,4 +1,4 @@
-package PW.OOPs.Variables;
+package OOPs.Variables;
 
 class Calculator{
     public void add(int a, int b){ // variables declared inside the method

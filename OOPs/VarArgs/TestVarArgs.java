@@ -1,4 +1,4 @@
-package PW.OOPs.VarArgs;
+package OOPs.VarArgs;
 
 class BasicCalculator
 {

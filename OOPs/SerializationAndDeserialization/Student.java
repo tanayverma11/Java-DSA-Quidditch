@@ -1,4 +1,4 @@
-package PW.OOPs.SerializationAndDeserialization;
+package OOPs.SerializationAndDeserialization;
 
 import java.io.*;
 public class Student implements Serializable {

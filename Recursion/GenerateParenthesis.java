@@ -1,4 +1,4 @@
-package PW.recursion;
+package Recursion;
 import java.util.Scanner;
 public class GenerateParenthesis {
     public static void printValidParenthesis(int open,int close,int n,String ans){

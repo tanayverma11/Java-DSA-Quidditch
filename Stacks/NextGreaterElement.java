@@ -1,4 +1,4 @@
-package PW.Stacks;
+package Stacks;
 import java.util.Stack;
 // T.C.: O(n) , Auxiliary Space: O(n)
 public class NextGreaterElement {

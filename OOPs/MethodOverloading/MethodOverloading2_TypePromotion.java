@@ -1,4 +1,4 @@
-package PW.OOPs.MethodOverloading;
+package OOPs.MethodOverloading;
 // Case 1: Automatic type promotion in over loading
 
 class Calculator3

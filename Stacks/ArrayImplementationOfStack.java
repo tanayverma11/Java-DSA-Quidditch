@@ -1,4 +1,4 @@
-package PW.Stacks;
+package Stacks;
 public class ArrayImplementationOfStack {
     public static class Stack{
         int []st;

@@ -1,4 +1,4 @@
-package Abstraction;
+package OOPs.AbstractionUsingAbstractClass;
 
 abstract class Plane
 {

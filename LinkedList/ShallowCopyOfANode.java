@@ -1,4 +1,4 @@
-package PW.LinkedList;
+package LinkedList;
 public class ShallowCopyOfANode {
     public static void main(String[] args) {
         Node a = new Node(101);

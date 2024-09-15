@@ -1,4 +1,4 @@
-package PW.OOPs.GettersSetters;
+package OOPs.GettersSetters;
 
 class Student{
     // Data-Security

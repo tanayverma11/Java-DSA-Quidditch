@@ -1,6 +1,6 @@
-package PW.AdvanceSorting;
+package AdvanceSorting;
 import java.util.Scanner;
-import static PW.AdvanceSorting.MergeTwoSortedArrays.print;
+import static AdvanceSorting.MergeTwoSortedArrays.print;
 public class Kth_SmallestElement_QuickSelect {
     static int ans;
     public static void swap(int[] arr, int i, int j){

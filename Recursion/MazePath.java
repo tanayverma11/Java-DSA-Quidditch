@@ -1,4 +1,4 @@
-package PW.recursion;
+package Recursion;
 import java.util.Scanner;
 public class MazePath {
     public static int maze1(int curr_row, int curr_col, int m, int n){

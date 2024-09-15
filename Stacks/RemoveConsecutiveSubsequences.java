@@ -1,4 +1,4 @@
-package PW.Stacks;
+package Stacks;
 import java.util.Stack;
 public class RemoveConsecutiveSubsequences {
     public static int[] remove(int[] arr){

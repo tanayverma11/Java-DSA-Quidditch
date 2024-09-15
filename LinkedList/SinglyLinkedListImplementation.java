@@ -1,4 +1,4 @@
-package PW.LinkedList;
+package LinkedList;
 class SinglyLinkedList{ //User defined data structure
     private Node head;
     private Node tail;

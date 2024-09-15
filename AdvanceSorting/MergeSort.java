@@ -1,6 +1,6 @@
-package PW.AdvanceSorting;
-import static PW.AdvanceSorting.MergeTwoSortedArrays.mergeArray;
-import static PW.AdvanceSorting.MergeTwoSortedArrays.print;
+package AdvanceSorting;
+import static AdvanceSorting.MergeTwoSortedArrays.mergeArray;
+import static AdvanceSorting.MergeTwoSortedArrays.print;
 public class MergeSort {
     public static void mergesort(int[] arr){
         int n = arr.length;
