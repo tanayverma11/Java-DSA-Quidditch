@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-package PW.Methods;
-=======
-package PW.methods;
->>>>>>> 665db253f25221c065779d47f915872d3c8e0ef6
+package Methods;
+
 import java.util.Scanner;
 public class oddMtoN {
     public static void main(String[] args) {

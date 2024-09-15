@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-package PW.Loops;
-=======
-package PW.loops;
->>>>>>> 665db253f25221c065779d47f915872d3c8e0ef6
+package Loops;
+
 import java.util.Scanner;
 public class palindromeString {
     public static void main(String[] args) {
