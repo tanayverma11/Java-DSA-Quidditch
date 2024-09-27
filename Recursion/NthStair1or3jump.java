@@ -10,5 +10,6 @@ public class NthStair1or3jump {
         System.out.println("Enter a Number: ");
         int n=sc.nextInt();
         System.out.println(stair(n));
+        sc.close();
     }
 }

@@ -10,6 +10,7 @@ public class FiboNthTerm {
         System.out.println("Enter a Number: ");
         int n=sc.nextInt();
         System.out.println(n+" term of Fibonacci Series is: "+fibo(n));
+        sc.close();
     }
 }
 

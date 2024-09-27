@@ -14,5 +14,6 @@ public class GenerateParenthesis {
         System.out.println("Enter a number: ");
         int n=sc.nextInt();
         printValidParenthesis(0,0,n,"");
+        sc.close();
     }
 }

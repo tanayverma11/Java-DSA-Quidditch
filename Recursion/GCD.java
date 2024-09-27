@@ -16,5 +16,6 @@ public class GCD {
         System.out.println("Enter 2nd number: ");
         int b=sc.nextInt();
         System.out.println("GCD is: "+gcd(a,b));
+        sc.close();
     }
 }

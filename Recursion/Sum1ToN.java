@@ -9,5 +9,6 @@ public class Sum1ToN {
         Scanner sc=new Scanner(System.in);
         int n= sc.nextInt();
         System.out.println(sum(n));
+        sc.close();
     }
 }

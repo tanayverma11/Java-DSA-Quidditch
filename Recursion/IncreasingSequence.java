@@ -29,6 +29,7 @@ public class IncreasingSequence {
             int len = 0;
             printSequence(arr,n,k,len);
             System.out.println();
+            sc.close();
         }
 }
 

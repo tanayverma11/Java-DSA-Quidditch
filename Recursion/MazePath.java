@@ -18,5 +18,6 @@ public class MazePath {
         int n=sc.nextInt();
       //  System.out.println(maze1(1,1,m,n));
         System.out.println(maze2(m,n));
+        sc.close();
     }
 }

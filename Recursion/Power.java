@@ -19,5 +19,6 @@ public class Power {
         int b=sc.nextInt();
         System.out.println(a+" raised to "+b+" = "+powLinear(a,b));
         System.out.println(a+" raised to "+b+" = "+powLogarithmic(a,b));
+        sc.close();
     }
 }

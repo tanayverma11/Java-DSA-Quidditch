@@ -1,6 +1,7 @@
 package Stacks;
 import java.util.Scanner;
-
+// Approach-1: Using extra stack
+//T.C.: O(1) , S.C.: O(n)
 public class MaxStack {
     private static final int MAX_STACK_SIZE = 100;
     private int[] stack = new int[MAX_STACK_SIZE];

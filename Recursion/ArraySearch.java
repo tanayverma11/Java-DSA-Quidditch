@@ -18,5 +18,6 @@ public class ArraySearch {
         System.out.println("Enter Element to search: ");
         int x=sc.nextInt();
         searchArray(0, arr,x);
+        sc.close();
     }
 }

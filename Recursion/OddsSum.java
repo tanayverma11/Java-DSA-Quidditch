@@ -12,5 +12,6 @@ public class OddsSum {
         int a= sc.nextInt();
         int b=sc.nextInt();
         System.out.println(oddSum(a,b));
+        sc.close();
     }
 }

@@ -10,5 +10,6 @@ public class Print1toN {
         Scanner sc=new Scanner(System.in);
         int n= sc.nextInt();
         printIncreasing(1,n); //using extra parameter
+        sc.close();
     }
 }

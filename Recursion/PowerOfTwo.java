@@ -16,5 +16,7 @@ public class PowerOfTwo {
         int n= sc.nextInt();
         if(powOfTwo(n)) System.out.println("true");
         else System.out.println("false");
+        sc.close();
     }
+
 }

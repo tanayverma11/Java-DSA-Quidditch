@@ -11,5 +11,6 @@ public class Factorial {
         System.out.println("Enter a Number: ");
         int n=sc.nextInt();
         System.out.println(facto(n));
+        sc.close();
     }
 }

@@ -18,5 +18,6 @@ public class BinaryStringNoConsecutive1s {
         System.out.println("Enter a number: ");
         int n=sc.nextInt();
         printStrings("",n);
+        sc.close();
     }
 }

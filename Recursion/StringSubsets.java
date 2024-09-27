@@ -12,7 +12,7 @@ public class StringSubsets {
         printSubsets(i+1, s, ans);        //not take
     }
     public static void main(String[] args) {
-        String str = "abc";
+        String str = "tanay";
         arr = new ArrayList<>();  //reset
         printSubsets(0, str, "");
         System.out.println(arr);
