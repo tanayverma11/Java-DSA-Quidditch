@@ -1,8 +1,9 @@
 package Recursion;
 import java.util.Scanner;
 import static Recursion.Power.powLogarithmic;
+
 public class ReverseNumber {
-    public static int revNum(int n, int l){
+    private static int revNum(int n, int l){
         if(l==1) return n;
         return ((n%10) * powLogarithmic(10, l-1)) + revNum(n/10, --l);
     }

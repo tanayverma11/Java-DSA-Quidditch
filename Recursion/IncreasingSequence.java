@@ -1,7 +1,8 @@
 package Recursion;
 import java.util.Scanner;
 public class IncreasingSequence {
-        public static void printSequence(int[] arr, int n, int k, int len) {
+
+        private static void printSequence(int[] arr, int n, int k, int len) {
             if(k == len) {
                 for (int i = 0; i < k; i++)
                     System.out.print(arr[i] + " ");
@@ -19,6 +20,7 @@ public class IncreasingSequence {
             }
             len--;
         }
+
         public static void main(String[] args) {
             Scanner sc=new Scanner(System.in);
             System.out.println("Enter value of 'n': ");

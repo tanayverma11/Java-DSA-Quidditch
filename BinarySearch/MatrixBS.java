@@ -1,15 +1,8 @@
 package BinarySearch;
 import java.util.Scanner;
 public class MatrixBS {
-        public static void main(String[] args) {
-            int [][]arr = {{1,3,5,7},{10,11,16,20},{23,30,34,60}};
-            Scanner sc=new Scanner(System.in);
-            int x= sc.nextInt();
-            boolean flag = bSearchMatrix(arr,x);
-            if(flag) System.out.println("TRUE");
-            else System.out.println("FALSE");
-        }
-        public static boolean bSearchMatrix(int [][]arr, int target) {
+
+        private static boolean bSearchMatrix(int [][]arr, int target) {
             int n = arr.length;
             int m = arr[0].length;
             int row = 0, col = m-1;
@@ -24,4 +17,14 @@ public class MatrixBS {
             }
             return false;
         }
+
+    public static void main(String[] args) {
+        int [][]arr = {{1,3,5,7},{10,11,16,20},{23,30,34,60}};
+        Scanner sc=new Scanner(System.in);
+        int x= sc.nextInt();
+        boolean flag = bSearchMatrix(arr,x);
+        if(flag) System.out.println("TRUE");
+        else System.out.println("FALSE");
+        sc.close();
+    }
 }

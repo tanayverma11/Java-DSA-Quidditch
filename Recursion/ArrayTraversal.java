@@ -1,6 +1,6 @@
 package Recursion;
 public class ArrayTraversal {
-    public static void printArray(int idx, int[] arr){
+    private static void printArray(int idx, int[] arr){
         if(idx==arr.length) return;
         System.out.print(arr[idx]+ " ");
         printArray(idx+1, arr);

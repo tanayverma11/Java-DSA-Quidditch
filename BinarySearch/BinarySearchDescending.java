@@ -1,12 +1,7 @@
 package BinarySearch;
 
 public class BinarySearchDescending {
-    public static void main(String[] args) {
-        int [] arr={9,8,7,6,5,4,3,2,1,0};
-        int n=arr.length;
-        int x=14;
-        bSearchDesc(arr,n,x);
-    }
+
     public static void bSearchDesc(int[] arr, int n, int x) {
         int lo=n-1, hi=0,mid=0;
         boolean flag=false;
@@ -21,5 +16,12 @@ public class BinarySearchDescending {
         }
         if(flag) System.out.println("Element Found");
         else System.out.println("Not Found!");
+    }
+
+    public static void main(String[] args) {
+        int [] arr={9,8,7,6,5,4,3,2,1,0};
+        int n=arr.length;
+        int x=14;
+        bSearchDesc(arr,n,x);
     }
 }

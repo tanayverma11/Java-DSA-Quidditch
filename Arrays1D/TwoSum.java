@@ -1,6 +1,7 @@
 package Arrays1D;
 import java.util.Scanner;
 public class TwoSum {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter size of array:");
@@ -19,5 +20,6 @@ public class TwoSum {
                     System.out.print("["+arr[i]+","+arr[j]+"]\t");
             }
         }
+        sc.close();
     }
 }

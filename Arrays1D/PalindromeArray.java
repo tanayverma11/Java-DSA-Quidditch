@@ -1,6 +1,15 @@
 package Arrays1D;
 import java.util.Scanner;
 public class PalindromeArray {
+
+    private boolean isPali(int[] a, int l) {
+        for (int i = 0, j = l - 1; i <= l / 2 && j >= l / 2; i++, j--) {
+            if (a[i] != a[j])
+                return false;
+        }
+        return true;
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter size of array:");
@@ -14,12 +23,6 @@ public class PalindromeArray {
             System.out.println("Palindrome");
         else
             System.out.println("Not Palindrome");
-    }
-    boolean isPali(int[] a, int l) {
-        for (int i = 0, j = l - 1; i <= l / 2 && j >= l / 2; i++, j--) {
-            if (a[i] != a[j])
-                return false;
-        }
-        return true;
+        sc.close();
     }
 }

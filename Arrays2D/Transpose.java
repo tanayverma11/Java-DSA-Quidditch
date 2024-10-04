@@ -3,6 +3,7 @@ package Arrays2D;
 import java.util.Scanner;
 
 public class Transpose {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[][] a = {{1, 2, 3}, {10,20,30}};
@@ -26,5 +27,6 @@ public class Transpose {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

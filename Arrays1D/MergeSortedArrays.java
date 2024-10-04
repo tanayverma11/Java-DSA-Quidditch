@@ -1,6 +1,7 @@
 package Arrays1D;
 import java.util.Scanner;
 public class MergeSortedArrays {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         //inputting
@@ -23,8 +24,10 @@ public class MergeSortedArrays {
         System.out.print("The Merged Array is: ");
         for (int i=0; i<l; i++)
             System.out.print(merged[i]+" ");
+        sc.close();
     }
-        void mergeArray(int[] nums1, int[] nums2, int[] merged, int m, int n, int l) {
+
+    private void mergeArray(int[] nums1, int[] nums2, int[] merged, int m, int n, int l) {
             int i = 0, j = 0, k = 0;
             while (i < m && j < n) {
                 if (nums1[i] < nums2[j])
@@ -36,5 +39,6 @@ public class MergeSortedArrays {
                 merged[k++] = nums1[i++];
             while (j < n)
                 merged[k++] = nums2[j++];
-        }
+    }
+
 }

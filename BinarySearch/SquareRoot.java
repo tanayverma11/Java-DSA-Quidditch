@@ -1,7 +1,8 @@
 package BinarySearch;
 import java.util.Scanner;
 public class SquareRoot {
-        public static int mySqrt(int x) {
+
+        private static int mySqrt(int x) {
             if(x<=1) return x;
             int lo = 1, hi = x-1;
             while(lo<=hi){
@@ -12,10 +13,12 @@ public class SquareRoot {
             }
             return hi;
         }
+
          public static void main(String[] args) {
              Scanner sc = new Scanner(System.in);
              int x=sc.nextInt();
              int ans=mySqrt(x);
              System.out.println(ans);
+             sc.close();
         }
 }

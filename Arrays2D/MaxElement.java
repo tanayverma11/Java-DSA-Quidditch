@@ -23,6 +23,6 @@ public class MaxElement {
         }
         System.out.println("Maximum element is: "+max);
         System.out.println("Sum of array is: "+sum);
+        sc.close();
     }
-
 }

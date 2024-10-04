@@ -2,7 +2,8 @@ package Recursion;
 import java.util.Scanner;
 // Integer Subsets from 1 to N
 public class PowerSet {
-    public static void generatePowerSet(int i, int n, String ans) {
+
+    private static void generatePowerSet(int i, int n, String ans) {
         // Base case: all elements considered
         if (i == n + 1) {
             System.out.println(ans);
@@ -13,10 +14,10 @@ public class PowerSet {
     }
 
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter n: ");
-        int n = scan.nextInt();
+        int n = sc.nextInt();
         generatePowerSet(1, n, "");
-        scan.close();
+        sc.close();
     }
 }

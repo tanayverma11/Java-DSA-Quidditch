@@ -20,7 +20,7 @@ public class MergeSort {
         a = null; b = null;
     }
     public static void main(String[] args) {
-        int[] arr = {10,56,28,65,74,951,2,035,65,7,9,1,2,22,3,67};
+        int[] arr = {10,56,28,65,74,951,2,35,65,7,9,1,2,22,3,67};
         print(arr);
         mergesort(arr);
         print(arr);

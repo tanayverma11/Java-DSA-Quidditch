@@ -1,6 +1,7 @@
 package Recursion;
 public class Permutations {
-    public static void printPermutations(String ans, String s){ //T.C. = O(n!)
+
+    private static void printPermutations(String ans, String s){ //T.C. = O(n!)
         if(s.length()==0){
             System.out.println(ans);
             return;
@@ -12,6 +13,7 @@ public class Permutations {
             printPermutations(ans+ch, left+right);
         }
     }
+
     public static void main(String[] args) {
         String s = "abc";
         printPermutations("",s);

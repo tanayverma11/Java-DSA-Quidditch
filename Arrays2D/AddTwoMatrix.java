@@ -19,5 +19,6 @@ public class AddTwoMatrix {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

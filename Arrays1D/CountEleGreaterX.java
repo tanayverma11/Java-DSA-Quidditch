@@ -1,6 +1,18 @@
 package Arrays1D;
 import java.util.Scanner;
 public class CountEleGreaterX {
+
+    private void greaterThanX(int[] a, int l, int x) {
+        int count=0;
+        for (int i = 0; i < l; i++){
+            if (a[i]>x) {
+              //  System.out.print(a[i] + " ");
+                ++count;
+            }
+        }
+        System.out.println("There are "+count+ " elements greater than "+x);
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter size of array:");
@@ -13,15 +25,6 @@ public class CountEleGreaterX {
         int x = sc.nextInt();
         CountEleGreaterX obj = new CountEleGreaterX();
         obj.greaterThanX(arr,n,x);
-    }
-    void greaterThanX(int[] a, int l, int x) {
-        int count=0;
-        for (int i = 0; i < l; i++){
-            if (a[i]>x) {
-              //  System.out.print(a[i] + " ");
-                ++count;
-            }
-        }
-        System.out.println("There are "+count+ " elements greater than "+x);
+        sc.close();
     }
 }

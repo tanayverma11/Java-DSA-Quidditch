@@ -2,6 +2,7 @@ package Arrays1D;
 import java.util.Arrays;
 import java.util.Scanner;
 public class ThreeSum {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter size of array:");
@@ -29,7 +30,7 @@ public class ThreeSum {
                 else
                     right--;
             }
-
         }
+        sc.close();
     }
 }

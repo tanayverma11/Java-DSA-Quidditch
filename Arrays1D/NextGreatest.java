@@ -2,6 +2,7 @@ package Arrays1D;
 import java.util.Scanner;
 import static java.lang.Math.max;
 public class NextGreatest {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] a = {12,8,41,60,2,49,16,28,21};
@@ -22,5 +23,6 @@ public class NextGreatest {
         for (int i = 0; i < n; i++) {
             System.out.print(ans[i]+" ");
         }
+        sc.close();
     }
 }

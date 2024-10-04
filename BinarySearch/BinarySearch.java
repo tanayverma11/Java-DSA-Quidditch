@@ -20,5 +20,6 @@ public class BinarySearch {
         }
         if(flag) System.out.println("Target Element Found");
         else System.out.println("Target Element NOT Found");
+        sc.close();
     }
 }

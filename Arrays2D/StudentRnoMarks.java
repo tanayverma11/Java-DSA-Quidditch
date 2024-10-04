@@ -17,6 +17,6 @@ public class StudentRnoMarks {
             }
             System.out.println();
         }
-
+        sc.close();
     }
 }

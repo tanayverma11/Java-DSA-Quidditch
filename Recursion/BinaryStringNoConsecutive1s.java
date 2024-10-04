@@ -1,7 +1,8 @@
 package Recursion;
 import java.util.Scanner;
 public class BinaryStringNoConsecutive1s {
-    public static void printStrings(String ans, int n){
+
+    private static void printStrings(String ans, int n){
         int l=ans.length();
         if(l==n) {                          //base case
             System.out.println(ans);
@@ -13,6 +14,7 @@ public class BinaryStringNoConsecutive1s {
         }
         else printStrings(ans+0, n);
     }
+
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a number: ");

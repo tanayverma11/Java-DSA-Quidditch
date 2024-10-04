@@ -1,6 +1,6 @@
 package BinarySearch;
 public class SearchInRotatedSortedArray {
- public static int search(int[] arr, int target) {
+ private static int search(int[] arr, int target) {
      int n = arr.length;
      int lo = 0, hi = n-1;
      while(lo<=hi){
